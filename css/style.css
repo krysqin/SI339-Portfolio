@@ -99,7 +99,7 @@ h1.hero-title{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/hero.png);
+  background-image: url(../images/hero.JPG);
   background-attachment: fixed;     
   background-position: center; 
   background-repeat: no-repeat; 
@@ -108,29 +108,39 @@ h1.hero-title{
   padding-right: 10px;
   color: white;
   text-transform: uppercase;
-  text-shadow: 3px 3px #709ab6;
+  text-shadow: 3px 3px #2b4251;
   height: 60vh;    
 }
 
 /* animation - homepage*/
 
 @-webkit-keyframes pic-ani{
-  from {
-    width: 20%;
+  0%  {
+    top: 0px;
+    left: 20p;
   }
 
-  to {
-    width: 100% ;
+  50%  {
+    top: 45px; 
+    left: 0px;
+  }
+  100% {top: 0px;
+    left: 0px;
   }
 } 
 
 @keyframes pic-ani{
-  from {
-    width: 20%;
+  0%  {
+    top: 0px;
+    left: 20p;
   }
-
-  to {
-    width: 100%;
+  
+  50%  {
+    top: 45px; 
+    left: 0px;
+  }
+  100% {top: 0px;
+    left: 0px;
   }
 } 
 
