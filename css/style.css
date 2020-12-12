@@ -246,7 +246,7 @@ div.button_links2{
 .grid-links{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1;
+  grid-template-rows: 1fr;
   grid-gap: 2rem;
   margin: 1rem 0;
   padding: 0 1.5rem;
@@ -624,7 +624,7 @@ input[type=submit] {
   .grid-links{
     display: grid;
     grid-template-columns: repeat(2, calc(((100vw - 5rem)/2)));
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     grid-gap: 2rem;
     margin: 1rem 0;
     padding: 0 1.5rem;
